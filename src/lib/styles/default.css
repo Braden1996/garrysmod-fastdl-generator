@@ -1,0 +1,63 @@
+QMainWindow {
+    background-color: #F1F3F2;
+}
+QCheckBox:indicator {
+    color: #323232;
+    background-color: #323232;
+    border: 2px solid #B1B1B1;
+    width: 18px;
+    height: 18px;
+}
+QCheckBox:indicator:hover {
+    border: 2px solid #2DCC70;
+}
+QCheckBox:indicator:checked {
+    image: url("img/checkbox.png");
+}
+QCheckBox:indicator:disabled, QRadioButton::indicator:disabled {
+    border: 2px solid #444;
+}
+QPushButton {
+    font-size: 22px;
+    color: #FFF;
+    background-color: #2DCC70;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+QPushButton:hover {
+    background-color: #32E57D;
+}
+QPushButton#dir {
+    font-size: 22px;
+    color: #FFF;
+    background-color: #C0C8CA;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+QPushButton#dir:hover {
+    background-color: #AAB1B3;
+}
+QPushButton#close {
+    background-color: #E74C3C;
+}
+QPushButton#close:hover {
+    background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.5 #E74C3C, stop: 1 #C73D2E);
+}
+CustomTitlebar {
+    background-color: #343843;
+}
+CustomTitlebar QLabel {
+    color: white;
+    font-size: 22px;
+    margin-left: 4px;
+    margin-top: 12px;
+    background-color: #343843;
+}
+#ContentPanel {
+    background-color: #F1F3F2;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #DBDDDC;
+}
