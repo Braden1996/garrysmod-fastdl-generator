@@ -8,7 +8,7 @@ from bz2 import compress
 from os import makedirs, walk
 from os.path import exists, join, isfile, splitext
 from random import randint
-from PyQt4.QtCore import QThread, SIGNAL
+from PyQt5.QtCore import QThread
 import subprocess
 
 class FastDLFolder():

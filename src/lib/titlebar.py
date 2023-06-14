@@ -4,8 +4,10 @@
 # and saves the result to the output directory. It was designed for use with FastDL
 # for the big-booty-bitches.com community
 
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QWidget, QPushButton, QLabel, QStylePainter, QStyleOptionFrame, QStyle
+
 
 class CustomTitlebar(QWidget):
 
