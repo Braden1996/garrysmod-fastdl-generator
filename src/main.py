@@ -7,8 +7,11 @@
 from sys import exit as sysExit, argv as sysArgV
 from os import getcwd
 from os.path import isdir
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QMainWindow, QLabel, QLineEdit, QPushButton, QFileDialog, QCheckBox, QGridLayout, QWidget, \
+    QApplication
+
 from lib.titlebar import CustomTitlebar
 from lib.compressfastdl import FastDLFolder
 from webbrowser import open as webOpen
